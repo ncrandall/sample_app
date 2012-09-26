@@ -2,7 +2,7 @@
 
 /* mixins, variables, etc. */
 
-$greyMediumLight: #eaeaea;
+$greyMediumLight: #8b8b8b;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -159,6 +159,37 @@ footer ul li {
   }
 }
 
+/* microposts */
+
+.microposts {
+  list-syle: none;
+  margin: 10px 0 0 0;
+  
+  li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+}
+
+.content {
+  display: block;
+}
+
+.timestamp {
+  color: $greyMediumLight;
+}
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
 
 /* miscellaneous */
 
